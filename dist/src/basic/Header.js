@@ -80,7 +80,7 @@ variables.iosStatusbar,
 
 translucent:this.props.transparent?true:this.props.translucent,__source:{fileName:_jsxFileName,lineNumber:68}}),
 
-false?
+_platform2.default.isIphoneX&&this.props.ignoreIPhoneXInsets!="true"?
 _react2.default.createElement(_reactNative.View,_extends({
 ref:function ref(c){return _this2._root=c;}},
 this.props,{
