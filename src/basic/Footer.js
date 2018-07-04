@@ -81,7 +81,7 @@ class Footer extends Component {
     const variables = this.context.theme
       ? this.context.theme["@@shoutem.theme/themeStyle"].variables
       : variable;
-    return variable.isIphoneX ? (
+    return false ? (
       <View
         ref={c => (this._root = c)}
         {...this.props}

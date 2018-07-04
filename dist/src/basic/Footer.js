@@ -81,7 +81,7 @@ return bottomPadder;
 var variables=this.context.theme?
 this.context.theme["@@shoutem.theme/themeStyle"].variables:
 _platform2.default;
-return _platform2.default.isIphoneX?
+return false?
 _react2.default.createElement(_reactNative.View,_extends({
 ref:function ref(c){return _this2._root=c;}},
 this.props,{
